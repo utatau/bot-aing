@@ -8,16 +8,7 @@ bikin file .env yang isinya
 
 `PORT=12312321 terserah`
 
-## INSTALASI
-
-install bot-gua
-
-```bash
-  cd bot-gua
-  npm install bot-gua
-```
-
-## Run Project Di Lokal
+## Menjalankan Project
 
 install ollama windows
 
