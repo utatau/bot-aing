@@ -1,5 +1,7 @@
 # BOT UTA:V1
 
+cara pake bot
+
 ```bash
     uta: "isi yang mau lu tanya"
 ```
