@@ -1,9 +1,5 @@
 # BOT UTA:V1
 
-## Authors
-
-- [utatau](https://www.github.com/utatau)
-
 ## env file
 
 bikin file .env yang isinya
@@ -83,3 +79,7 @@ bagian
 ```
 
 sesuai kan model nya dengan ai yang anda download
+
+## Authors
+
+- [utatau](https://www.github.com/utatau)
