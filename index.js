@@ -1,4 +1,4 @@
-const { default: axios } = require('axios');
+const axios = require('axios');
 const dotenv = require('dotenv')
 const express = require('express')
 const qrcode = require('qrcode-terminal')
@@ -19,11 +19,9 @@ app.get('/', (req, res) => {
     res.send('INI BOT WA GUA')
 })
 const bot = new Client({
-    authStrategy: new LocalAuth({
-        clientId: 'lol'
-    }),
+    authStrategy: new LocalAuth({ clientId: 'lol' }),
     puppeteer: {
-        headless: false,
+        headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });

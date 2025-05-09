@@ -1,5 +1,9 @@
 # BOT UTA:V1
 
+```bash
+    uta: "isi yang mau lu tanya"
+```
+
 ## env file
 
 copy .env.example jadi .env dan isi
