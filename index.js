@@ -23,7 +23,7 @@ const bot = new Client({
         clientId: 'lol'
     }),
     puppeteer: {
-        headless: true,
+        headless: false,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
