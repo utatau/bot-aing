@@ -2,8 +2,7 @@
 
 ## env file
 
-bikin file .env yang isinya
-
+copy .env.example jadi .env dan isi
 `HOST= "localhost"/"ip public"`
 
 `PORT=12312321 terserah`
