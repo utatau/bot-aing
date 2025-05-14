@@ -39,7 +39,7 @@ bot.on('ready', () => {
 const ollamaMenjawab = async pertanyaan => {
     try {
         const response = await axios.post(HOST, {
-            model: 'deepseek-r1:1.5b',
+            model: 'deepseek-r1:14b',
             message: [
                 {
                     role: "user", content: pertanyaan
@@ -57,7 +57,8 @@ const ollamaMenjawab = async pertanyaan => {
 
 bot.on('message', async message => {
     messageBody = message.body.trim().toLowerCase()
-    if (messageBody.startwith('uta:')) {
+
+    if (messageBody.startsWith('uta:')) {
         const pertanyaanUser = messageBody.substring(4)
         const jawaban = await ollamaMenjawab(pertanyaanUser)
         message.reply(jawaban)
